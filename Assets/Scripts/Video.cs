@@ -8,7 +8,7 @@ public class Video : MonoBehaviour {
 
 
 //Raw Image to Show Video Images [Assign from the Editor]
-//public RawImage image;
+public RawImage image;
 //Video To Play [Assign from the Editor]
 public VideoClip videoToPlay;
 
@@ -61,7 +61,7 @@ IEnumerator playVideo()
     Debug.Log("Done Preparing Video");
 
     //Assign the Texture from Video to RawImage to be displayed
-    //image.texture = videoPlayer.texture;
+    image.texture = videoPlayer.texture;
 
     //Play Video
     videoPlayer.Play();
