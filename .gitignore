@@ -52,3 +52,6 @@ crashlytics-build.properties
 
 #output_folder
 test_data
+
+!Assets/Obj
+Assets/UnityStandardAssets*
