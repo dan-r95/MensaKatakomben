@@ -84,8 +84,8 @@ public class LSVRMouseController : MonoBehaviour {
         m_TargetAngles.x += inputV * rotationAmount;
 
         // clamp values to allowed range
-        m_TargetAngles.y = Mathf.Clamp(m_TargetAngles.y, -360.0f * 0.5f, 360.0f * 0.5f);
-        m_TargetAngles.x = Mathf.Clamp(m_TargetAngles.x, -360.0f * 0.5f, 360.0f * 0.5f);
+       // m_TargetAngles.y = Mathf.Clamp(m_TargetAngles.y, -360.0f * 0.5f, 360.0f * 0.5f);
+       // m_TargetAngles.x = Mathf.Clamp(m_TargetAngles.x, -360.0f * 0.5f, 360.0f * 0.5f);
 
 
         // smoothly interpolate current values to target angles

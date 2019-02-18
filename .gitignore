@@ -53,5 +53,9 @@ crashlytics-build.properties
 #output_folder
 test_data
 
+*.exe
 !Assets/Obj
-Assets/UnityStandardAssets*
+Assets/360VRCameraCaptureRig/Plugins/System.Drawing.dll.meta
+Assets/UnityStandardAssets/OSX/ffmeg.meta
+Assets/RockVR/
+Assets/StreamingAssets/RockVR/FFmpeg/
