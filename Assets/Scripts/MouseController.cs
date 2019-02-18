@@ -10,9 +10,9 @@ public class MouseController : MonoBehaviour
 
     public bool disableMouseRotation = false;
 
-    public bool autoReCenter = true;
+    public bool autoReCenter = false;
 
-    public KeyCode mouseLookKey = KeyCode.Mouse1;
+    public KeyCode mouseLookKey = KeyCode.Mouse0;
 
     public float dampingTime = 0.2f;
 
