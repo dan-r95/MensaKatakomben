@@ -1,0 +1,441 @@
+%YAML:1.0
+CamModel_V2_Set:
+   CAM_0:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2462410110955761e+02, 0., 5.3478098307049015e+02, 0.,
+             5.2462410110955761e+02, 8.2747936854687737e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 9.9999999999999989e-01, 2.9490299091605721e-17,
+             8.0393591089800154e-17, 2.9490299091605721e-17, 1.,
+             9.5409791178724390e-17, 8.0393591089800154e-17,
+             9.5409791178724390e-17, 9.9999999999999989e-01 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 2.8588503223902517e+01, 2.7866088512937415e-01,
+             5.9343613350777460e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -2.8588503223902517e+01, -2.7866088512938064e-01,
+             -5.9343613350777453e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.6758464858424717e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.0949597539238850e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.6758464858424717e-02,
+          -1.0949597539238850e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.3478098307049015e+02,
+          8.2747936854687737e+02 ]
+      ImageCircleRadius: 9.4804785156250000e+02
+   CAM_1:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2612727207014530e+02, 0., 5.2928466401102446e+02, 0.,
+             5.2612727207014530e+02, 8.0921003748244812e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 9.9930662154724192e-01, -6.0469344541295260e-03,
+             -3.6738409268022527e-02, 5.9752661801031927e-03,
+             9.9998002556552323e-01, -2.0602582489862454e-03,
+             3.6750133685664120e-02, 1.8393079358992566e-03,
+             9.9932279300554472e-01 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -2.9842797391355187e+01, -3.8801179403341091e-01,
+             5.8291234080061592e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 3.1961285971159452e+01, 6.8641769754652626e-01,
+             -5.7154318381768668e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.7214778954925191e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.1257218791873781e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.7214778954925191e-02,
+          -1.1257218791873781e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.2928466401102446e+02,
+          8.0921003748244812e+02 ]
+      ImageCircleRadius: 9.4644750976562500e+02
+   CAM_2:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2333361547282277e+02, 0., 5.5539247570629425e+02, 0.,
+             5.2333361547282277e+02, 7.9426411661676866e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 3.9488827306145358e-03, -7.8340328313619145e-03,
+             -9.9996151638689379e-01, 7.3226982326921822e-03,
+             9.9994272864214206e-01, -7.8049680524415544e-03,
+             9.9996539160901599e-01, -7.2915955252511357e-03,
+             4.0060228311075254e-03 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -6.0502144008921150e+01, 1.0782333290727930e-01,
+             2.8576573019425286e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 2.8815233852817272e+01, 5.5826102475449746e-01,
+             6.0386357927247033e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.7794486806501156e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.1326552196807584e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.7794486806501156e-02,
+          -1.1326552196807584e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.5539247570629425e+02,
+          7.9426411661676866e+02 ]
+      ImageCircleRadius: 9.4274700927734375e+02
+   CAM_3:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2283783025393438e+02, 0., 5.4171656657257029e+02, 0.,
+             5.2283783025393438e+02, 8.1452194389229624e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ -3.2454587328444855e-02, -4.3320935964965930e-03,
+             -9.9946382262011402e-01, -1.1501673035850179e-03,
+             9.9999010629027618e-01, -4.2970264992325657e-03,
+             9.9947254933615570e-01, 1.0100923881218409e-03,
+             -3.2459248864589466e-02 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -5.9430933745172581e+01, 6.9267836805518707e-02,
+             -2.9912364731472564e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -3.1824832752616103e+01, -2.6615689221072036e-01,
+             5.8428584001853864e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.7853499379519230e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.1375012377908306e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.7853499379519230e-02,
+          -1.1375012377908306e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.4171656657257029e+02,
+          8.1452194389229624e+02 ]
+      ImageCircleRadius: 9.4111627197265625e+02
+   CAM_4:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2563569248720580e+02, 0., 5.3708588542483130e+02, 0.,
+             5.2563569248720580e+02, 8.0893122900358492e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ -9.9999175469999357e-01, 1.8827502811735583e-03,
+             -3.5980249313313324e-03, 1.8914874672923271e-03,
+             9.9999526724719168e-01, -2.4264703540123663e-03,
+             3.5934394650273668e-03, -2.4332559661009688e-03,
+             -9.9999058318476897e-01 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -2.8183383943652590e+01, 7.0883651918291324e-02,
+             -6.0132508974051831e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -2.8399643285884501e+01, -1.6348454926610129e-01,
+             -6.0030494955135374e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.6792688298535516e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.0325955509043631e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.6792688298535516e-02,
+          -1.0325955509043631e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.3708588542483130e+02,
+          8.0893122900358492e+02 ]
+      ImageCircleRadius: 9.6325146484375000e+02
+   CAM_5:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2512112326633780e+02, 0., 5.5030105590925700e+02, 0.,
+             5.2512112326633780e+02, 7.9542663930463539e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ -9.9937202850386941e-01, 4.3558380863152448e-03,
+             3.5164972893874588e-02, 4.2399737585668718e-03,
+             9.9998533686606417e-01, -3.3687795106049512e-03,
+             -3.5179131123263881e-02, -3.2175654508047966e-03,
+             -9.9937584321714612e-01 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 3.0272381659311922e+01, -2.9720163037668512e-01,
+             -5.8501289063168059e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 3.2311862272853823e+01, -2.8234775315408744e-02,
+             -5.7400775268684988e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.4010024472077387e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.0064591556583213e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.4010024472077387e-02,
+          -1.0064591556583213e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.5030105590925700e+02,
+          7.9542663930463539e+02 ]
+      ImageCircleRadius: 9.5441497802734375e+02
+   CAM_6:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2522210858906044e+02, 0., 5.5326972975466890e+02, 0.,
+             5.2522210858906044e+02, 8.0595198820563871e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ -2.0638330397565728e-03, 1.5480404724201556e-04,
+             9.9999785831215215e-01, 9.3524626759467697e-03,
+             9.9995625558462597e-01, -1.3549564414510728e-04,
+             -9.9995413496573904e-01, 9.3521630055040748e-03,
+             -2.0651905576606526e-03 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 6.0154945552809380e+01, 1.9554593439835322e-01,
+             -2.8266511090914776e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 2.8390570045706053e+01, -7.6196425254003242e-01,
+             6.0091982034914110e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.5170853371712877e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.0787819831995005e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.5170853371712877e-02,
+          -1.0787819831995005e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.5326972975466890e+02,
+          8.0595198820563871e+02 ]
+      ImageCircleRadius: 9.4489202880859375e+02
+   CAM_7:
+      K: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 5.2693066251403206e+02, 0., 5.4917040434792000e+02, 0.,
+             5.2693066251403206e+02, 8.0629628135320536e+02, 0., 0., 1. ]
+      R: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 3.4565726767874838e-02, -9.7525613167258503e-04,
+             9.9940195087286399e-01, 1.2250802911244439e-02,
+             9.9992480370438686e-01, 5.5205504594543937e-04,
+             -9.9932733794339845e-01, 1.2224394145377765e-02,
+             3.4575075223923890e-02 ]
+      CamCenter: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ 5.8943428653077717e+01, -3.6968216748720584e-02,
+             3.0601253409342871e+01 ]
+      t: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: d
+         data: [ -3.2620410859516220e+01, -7.0203246682297049e-01,
+             5.7846190920614795e+01 ]
+      DistortionCoeffs_0: 0.
+      DistortionCoeffs_1: 1.6333802889986534e-02
+      DistortionCoeffs_2: 0.
+      DistortionCoeffs_3: -1.0927873670443804e-02
+      DistortionCoeffs_4: 0.
+      DistortionCoeffs_5: 0.
+      DistortionCoeffs_6: 0.
+      DistortionCoeffs_7: 0.
+      DistortionCoeffs_8: 0.
+      DistortionCoeffs_9: 0.
+      InvDistortionCoeffs_0: 0.
+      InvDistortionCoeffs_1: 0.
+      InvDistortionCoeffs_2: 0.
+      InvDistortionCoeffs_3: 0.
+      InvDistortionCoeffs_4: 0.
+      InvDistortionCoeffs_5: 0.
+      InvDistortionCoeffs_6: 0.
+      InvDistortionCoeffs_7: 0.
+      InvDistortionCoeffs_8: 0.
+      InvDistortionCoeffs_9: 0.
+      DistortionCoeffs: [ 1.6333802889986534e-02,
+          -1.0927873670443804e-02, 0., 0. ]
+      Fov_deg: 120
+      StraightSrcImageSize: [ 1088, 1600 ]
+      ImageCircleCenter: [ 5.4917040434792000e+02,
+          8.0629628135320536e+02 ]
+      ImageCircleRadius: 9.5062152099609375e+02
